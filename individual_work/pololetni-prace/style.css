@@ -1,0 +1,228 @@
+.container{
+    width: 100vw;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 5%;
+    background-color: hsla(237, 10%, 39%, 0.9);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header2{
+    width: 100%;
+    height: 10%;
+    background-color: hsla(237, 10%, 39%, 0.9);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navigation{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 25%;
+    background-color: #2c52b3;
+    position: fixed;
+    border-radius: 0.9rem;
+}
+
+
+#logo{
+    display: flex;
+    width: 150px;
+}
+
+/* v navigaci */
+.text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.item-text{
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+
+    padding: 0.2rem;
+}
+
+.item-text:hover{
+    background-color: rgba(255, 217, 0, 0.9);
+    border-radius: 0.9rem;
+}
+
+
+
+
+.content-container{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 50%;
+    background-color: 	rgba(44, 82, 179, 0.95);
+    padding: 20px;
+    text-align: justify;
+    border-color: rgba(255, 217, 0, 0.95);
+    border-style: solid;
+    border-width: 0.5rem;
+    z-index: 5;
+}
+
+.content:hover{
+    border-style: solid;
+    color: rgba(204, 34, 43, 0.95);
+    border-color: rgba(204, 34, 43, 0.95);
+}
+
+h1{
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.navtext{
+    font-size: 2rem;
+    font-family: Impact;
+    color: white;
+    font-style: normal;
+}
+
+p{
+    font-size: 1rem;
+    color: white;
+}
+
+.propagand{
+    font-size: 3rem;
+    font-family: Impact;
+    text-align: center;
+}
+
+.quotation{
+    font-size: 2rem;
+    font-family: Impact;
+    text-align: center;
+    margin-left: 50%;
+}
+
+.top{
+    display: flex;
+    position: absolute;
+    background-image: url(images/background_cropped.gif);
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.weapon-container{
+    width: 50%;
+    height: 79%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+
+
+.weapon-content{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    margin-top: 65%;
+    flex-direction: row;
+    background-color: lawngreen;
+
+}
+
+.blueprint{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    background-image: url(images/blueprint.jpg);
+    background-position: bottom;
+    background-size: contain;
+}
+
+.info-container{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background-color: rgba(44, 82, 179, 0.95);
+}
+
+.info{
+    display: block;
+    padding: 1rem;
+    width: 100%;
+    height: 80%;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    font-family: Impact ;
+    padding-bottom: 2rem;
+    color: white;
+}
+
+
+.mid{
+    display: flex;
+    position: absolute;
+    background-image: url(images/background_end.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+
+
+.container2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
