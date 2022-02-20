@@ -1,0 +1,78 @@
+.header{
+    width: 100%;
+    height: 5%;
+    background-color: $navbar-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header2{
+    width: 100%;
+    height: 10%;
+    background-color: $navbar-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navigation{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 25%;
+    background-color: #2c52b3;
+    position: fixed;
+    border-radius: 0.9rem;
+}
+
+
+#logo{
+    display: flex;
+    width: 150px;
+}
+
+/* v navigaci */
+.text-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+
+.item-text{
+    font-size: 1.1rem;
+    color: rgb(0, 0, 0);
+
+    padding: 0.2rem;
+}
+
+.item-text:hover{
+    background-color: rgba(255, 217, 0, 0.9);
+    border-radius: 0.9rem;
+}
+
+.navtext{
+    font-size: 2rem;
+    font-family: $big-text;
+    color: $text-color;
+    font-style: normal;
+}

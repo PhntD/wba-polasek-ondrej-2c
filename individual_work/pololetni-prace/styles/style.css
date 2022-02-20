@@ -1,0 +1,308 @@
+.container {
+  height: 200vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-family: Impact;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+  color: white;
+}
+
+.header {
+  width: 100%;
+  height: 5%;
+  background-color: rgba(90, 90, 109, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header2 {
+  width: 100%;
+  height: 10%;
+  background-color: rgba(90, 90, 109, 0.9);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navigation {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: 25%;
+  background-color: #2c52b3;
+  position: fixed;
+  border-radius: 0.9rem;
+}
+
+#logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+}
+
+/* v navigaci */
+.text-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 20px;
+}
+
+.item-text {
+  font-size: 1.1rem;
+  color: black;
+  padding: 0.2rem;
+}
+
+.item-text:hover {
+  background-color: rgba(255, 217, 0, 0.9);
+  border-radius: 0.9rem;
+}
+
+.navtext {
+  font-size: 2rem;
+  font-family: Impact;
+  color: white;
+  font-style: normal;
+}
+
+.content-container {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  width: 50%;
+  background-color: rgba(44, 82, 179, 0.95);
+  padding: 20px;
+  text-align: justify;
+  border-color: rgba(255, 217, 0, 0.95);
+  border-style: solid;
+  border-width: 0.5rem;
+  z-index: 5;
+}
+
+.content:hover {
+  border-style: solid;
+  color: rgba(204, 34, 43, 0.95);
+  border-color: rgba(204, 34, 43, 0.95);
+  background-color: rgba(44, 82, 179, 0.1);
+}
+
+.propagand {
+  font-size: 3rem;
+  font-family: Impact;
+  text-align: center;
+}
+
+.quotation {
+  font-size: 2rem;
+  font-family: Impact;
+  text-align: center;
+  margin-left: 50%;
+}
+
+.top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background-image: url(../Images/background_cropped.gif);
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.weapon-container {
+  width: 50%;
+  height: 79%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.weapon-content {
+  width: 100%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 65%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: lawngreen;
+}
+
+.blueprint {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../Images/blueprint.jpg);
+  background-position: bottom;
+  background-size: contain;
+}
+
+.info-container {
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  background-color: rgba(44, 82, 179, 0.95);
+}
+
+.info {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  height: 80%;
+}
+
+.mid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  background-image: url(../Images/background_end.jpg);
+  background-position: center;
+  background-size: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.container2 {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
