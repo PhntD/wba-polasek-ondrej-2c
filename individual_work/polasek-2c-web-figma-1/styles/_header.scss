@@ -1,0 +1,48 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: $header-footer-color;
+    height: 80px;
+}
+
+.logo{
+    display: grid;
+    padding-top: 7px;
+    padding-left: 40px;
+    padding-bottom: 7px;
+}
+
+
+
+
+@media screen and(max-width: 480px)
+{
+    .burger-menu{
+        display: grid;
+        justify-items: end;
+        align-items: center;
+        padding-right: 40px;
+    }
+    
+    .pc-menu-item{
+        display: none;
+    }
+}
+
+
+@media screen and(min-width: 481px)
+{
+    .burger-menu{
+        display: none;
+    }
+
+    .pc-menu{
+        display: flex;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .pc-menu-active{
+        background-color: $contact-field-color;
+    }
+}
