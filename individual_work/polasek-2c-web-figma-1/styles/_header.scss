@@ -12,9 +12,6 @@
     padding-bottom: 7px;
 }
 
-
-
-
 @media screen and(max-width: 480px)
 {
     .burger-menu{
@@ -44,5 +41,11 @@
 
     .pc-menu-active{
         background-color: $contact-field-color;
+    }
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
     }
 }

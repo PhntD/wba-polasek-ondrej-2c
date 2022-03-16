@@ -1,7 +1,6 @@
 .contact-headline{
     h1{
         text-align: center;
-        font-size: 1.5rem;
     }
 
     margin: 38px;
@@ -32,6 +31,11 @@
         grid-column-end: 3;
         padding: 5px;
     }
+    .contact-headline{
+        h1{
+            font-size: 1.5rem;
+        }
+    }
 }
 
 
@@ -59,5 +63,8 @@
         padding: 5px;
     }
 
+    h1{
+        font-size: 2rem;
+    }
     
 }

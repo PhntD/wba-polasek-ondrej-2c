@@ -1,4 +1,5 @@
 body {
+  background-color: #E5E5E5;
   font-family: 'Lato';
   font-style: normal;
   font-weight: 500;
@@ -53,6 +54,11 @@ body {
   .pc-menu-active {
     background-color: #7c74744d;
   }
+  a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
 }
 
 .basic-info-container {
@@ -95,17 +101,19 @@ body {
 }
 
 .basic-info-button {
-  background-color: #f8f7ec4d;
   text-align: center;
   width: 120px;
   height: 30px;
   padding: 5px;
-  color: black;
 }
 
 @media screen and (max-width: 480px) {
   .basic-info-container {
     background-color: #7C7474;
+  }
+  .basic-info-button {
+    background-color: #f8f7ec4d;
+    color: black;
   }
 }
 
@@ -130,6 +138,9 @@ body {
     background-color: #7c74744d;
     margin-left: 20%;
     margin-right: 20%;
+  }
+  .basic-info-button {
+    background-color: #7C7474;
   }
 }
 
@@ -165,8 +176,8 @@ body {
   text-align: center;
 }
 
-body {
-  background-color: #E5E5E5;
+.footer-item p {
+  font-weight: 700;
 }
 
 .offers-headline {
@@ -245,6 +256,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%;
   }
   .offers-product {
     display: -webkit-box;
@@ -286,6 +299,10 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.useful-info-text p {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 480px) {
@@ -338,7 +355,6 @@ body {
 
 .contact-headline h1 {
   text-align: center;
-  font-size: 1.5rem;
 }
 
 @media screen and (max-width: 480px) {
@@ -364,6 +380,9 @@ body {
         grid-column-start: 2;
     grid-column-end: 3;
     padding: 5px;
+  }
+  .contact-headline h1 {
+    font-size: 1.5rem;
   }
 }
 
@@ -391,6 +410,9 @@ body {
         grid-column-start: 1;
     grid-column-end: 3;
     padding: 5px;
+  }
+  h1 {
+    font-size: 2rem;
   }
 }
 /*# sourceMappingURL=style.css.map */

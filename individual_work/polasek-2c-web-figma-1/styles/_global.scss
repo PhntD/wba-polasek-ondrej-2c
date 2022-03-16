@@ -1,10 +1,19 @@
 $header-footer-color:#CBC1B1;
 $contact-field-color:#7c74744d;
+$dark-gray: #7C7474;
+$light-text: #F8F7EC;
+$ligth-button: #f8f7ec4d;
 
 body {
+    background-color: #E5E5E5;
+
     font-family: 'Lato';
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.1em;
 }
 
+@mixin flex-column{
+    display: flex;
+    flex-direction: column;
+}

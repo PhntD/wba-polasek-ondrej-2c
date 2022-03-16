@@ -1,14 +1,16 @@
 .container{
-    display: flex;
-    flex-direction: column;
+    @include flex-column;
     height: 100vh;
     justify-content: space-between;
 }
 
 .useful-info-text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;;
+    @include flex-column;
+    justify-content: center;
+
+    p{
+        font-weight: 600;
+    }
 }
 
 

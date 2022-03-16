@@ -1,0 +1,76 @@
+.basic-info-container{
+    display: grid;
+    margin: 40px;
+    margin-top: 50px;
+    color: $light-text;
+
+    h1{
+        font-size: 20px;
+    }
+
+    p{
+        font-size: 13px;
+    }
+}
+
+.basic-info-headline{
+    text-align: center;
+    margin: 24px;
+}
+
+.basic-info-text{
+    margin: 15.6px;
+}
+
+.basic-info-button-container{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+    p{
+        font-size: 0.8rem;
+    }
+}
+
+.basic-info-button{
+    text-align: center; 
+    width: 120px;
+    height: 30px;
+    padding: 5px;
+}
+
+@media screen and(max-width: 480px){
+    .basic-info-container{
+        background-color: $dark-gray;
+    }
+
+    .basic-info-button{
+        background-color: $ligth-button;
+        color: black;
+    }
+}
+
+@media screen and(min-width: 481px){
+    .basic-text-image-container{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+
+
+        background-image: url(../images/hero.jpg);
+        background-size:cover;
+        background-repeat: no-repeat;
+        height: 90vh;
+    }
+
+    .basic-info-container{
+        grid-row-start: 2;
+        grid-column-start: 2;
+        background-color: $contact-field-color;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .basic-info-button{
+        background-color: $dark-gray;
+    }
+}
